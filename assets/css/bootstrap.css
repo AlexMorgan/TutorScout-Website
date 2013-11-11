@@ -6309,15 +6309,37 @@ footer {
 }
 
 .profile {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+.headshot{
+  height: 125px;
+  width: 125px;
   border-radius: 100%;
 }
 
 #features {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: white;
+  text-align: center;
+}
+
+#features h3 {
+  color: #0098bd;
+}
+
+#features p {
+  font-size: .95em;
+}
+
+#team {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: white;
+  background-color: #e5e9ec;
+  text-align: center;
 }
 
 
