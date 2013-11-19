@@ -532,9 +532,10 @@ a:focus {
 .container:after {
   clear: both;
 }
+/*************************************Container Fluid Padding Ajusted!*****************************************/
 .container-fluid {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
   *zoom: 1;
 }
 .container-fluid:before,
@@ -6297,7 +6298,7 @@ button.close {
 }
 
 #intro h1 {
-  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+  font-family:Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
   font-size: 3.5em;
 }
 
@@ -6321,8 +6322,7 @@ footer {
 }
 
 #features {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding: 75px 0 75px 0px;
   background-color: white;
   text-align: center;
 }
@@ -6341,6 +6341,7 @@ footer {
   background-color: #e5e9ec;
   text-align: center;
 }
+
 
 
 /*TutorScout Color: #0098bd*/
